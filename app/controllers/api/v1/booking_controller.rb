@@ -14,16 +14,16 @@ module Api
                 booking = Booking.new(booking_params)
                 id = booking_params[:booking_date]
                 aprtid = booking_params[:appartment_id]
-                msg = 'Unable To booking !selected date alredy Booked!!!... Time Try Anther Day'
+                msg = 'Unable To booking !selected date alredy Booked!!!... Try Anther Day'
                 if Booking.exists?(:booking_date => id,:appartment_id => aprtid)
 
                           render json: {status: 'ERROR', message: msg }, status: :unprocessable_entity
 
                 else
                     if booking.save
-                        render json: {status: 'SUCESS', message: 'Apartment saved', data: booking}, status: :ok
+                        render json: {status: 'SUCESS', message: 'Apartment booking saved', data: booking}, status: :ok
                     else
-                        render json: {status: 'ERROR', message: 'Apartment NOT saved', data: booking.errors}, status: :unprocessable_entity
+                        render json: {status: 'ERROR', message: 'Apartment booking NOT saved', data: booking.errors}, status: :unprocessable_entity
                     end
                 end
             end
