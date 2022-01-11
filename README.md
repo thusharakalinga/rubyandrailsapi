@@ -17,7 +17,7 @@ Things you may want to cover:</br>
 # Database Configuration<br>
     You can change the DB File in \mytestapi\config\database.yml
 
-    change the adapter in to mysql2 and adding user name and password and db name in mysql sever.<br>
+    change the adapter in to mysql2 and adding user name and password and db name in mysql sever
 
     adapter: mysql2
     username: root
@@ -38,8 +38,11 @@ Things you may want to cover:</br>
 
 ------------------------------------------------------------------------------------------------
 
-* How to run the test suite
-
+# How to run the API
+    Run this command in Your CLI
+    rails s or rails server
+------------------------------------------------------------------------------------------------    
+#
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
