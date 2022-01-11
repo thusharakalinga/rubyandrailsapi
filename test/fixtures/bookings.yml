@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bookingdate: MyString
+  booingtime: MyString
+  bookingapartid: MyString
+  clientname: MyString
+  clientemail: MyString
+  isbook: MyString
+
+two:
+  bookingdate: MyString
+  booingtime: MyString
+  bookingapartid: MyString
+  clientname: MyString
+  clientemail: MyString
+  isbook: MyString
