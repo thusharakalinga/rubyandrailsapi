@@ -99,18 +99,20 @@ Things you may want to cover:</br>
         *Delete Apartment Detail
          End point: http://localhost:3000/api/v1/apartment/1
          Method: DELETE
-         *.Update Apartment Detail
-            End point: http://localhost:3000/api/v1/apartment/2
-            Method: PUT
-            Headers : Content-Type: application/json
-            In Put: Body
+         
+        *.Update Apartment Detail
+          End point: http://localhost:3000/api/v1/apartment/2
+          Method: PUT
+          Headers : Content-Type: application/json
+          In Put: Body
             {
             "name":"kalinga",
             "description":"asd",
             "price":"222ww",
             "location":"asdaaa"
             }
-
+      #Booking Reservation
+      
 
 
 ------------------------------------------------------------------------------------------------
