@@ -53,6 +53,22 @@ Things you may want to cover:</br>
     * appartment List
         End point: http://localhost:3000/api/v1/apartment
         Method: GET
+        {
+        "status": "SUCESS",
+        "message": "Loaded Apartment",
+        "data": [
+            {
+                "id": 6,
+                "name": " Sky Touch Villa",
+                "description": "Penthouse apartment with sky line view",
+                "price": " 40 Million",
+                "location": " Huge City, Sand Island",
+                "created_at": "2022-01-11T05:15:52.143Z",
+                "updated_at": "2022-01-11T05:15:52.143Z"
+            }
+           ]
+          }
+            
 
 ------------------------------------------------------------------------------------------------
 * Services (job queues, cache servers, search engines, etc.)
