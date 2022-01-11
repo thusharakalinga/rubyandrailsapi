@@ -68,6 +68,7 @@ Things you may want to cover:</br>
             }
            ]
           }
+      -----------------------------------------------------
      * Apartment Detail
         End point: http://localhost:3000/api/v1/apartment/1
         Method: GET
