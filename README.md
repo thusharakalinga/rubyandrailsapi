@@ -19,9 +19,9 @@ Things you may want to cover:</br>
 
     change the adapter in to mysql2 and adding user name and password and db name in mysql sever.<br>
 
-    adapter: mysql2.
-    username: root.
-    password:.
+    adapter: mysql2
+    username: root
+    password:
 
     set the database in development:
     database: blog1
@@ -29,12 +29,12 @@ Things you may want to cover:</br>
 
 ----------------------------------------------------------------------------------------------
 
-# Database Migrations<br>
+# Database Migrations
     You can Run migration Command below its create DB and create table and Data Seeding<br>
 
-    rake db:create<br>
-    rails db:migrate<br>
-    rails db:seed<br>
+    rake db:create
+    rails db:migrate
+    rails db:seed
 
 
 
