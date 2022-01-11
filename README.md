@@ -42,14 +42,16 @@ Things you may want to cover:</br>
     Run this command in Your CLI
     rails s 
     or rails server
+    System runing with http://localhost:3000
 ------------------------------------------------------------------------------------------------    
 # Run API with POSTMAN
     Postman is an API platform for building and using APIs. you can download the postman and setup 
     https://www.postman.com/downloads/
-    
-    
+------------------------------------------------------------------------------------------------    
+# API End point
+    more detail include in API Dcoumantaion plese see API_Documantaion.doc
 
-
+------------------------------------------------------------------------------------------------
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
