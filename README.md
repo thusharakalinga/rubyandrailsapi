@@ -68,7 +68,50 @@ Things you may want to cover:</br>
             }
            ]
           }
-            
+     * Apartment Detail
+        End point: http://localhost:3000/api/v1/apartment/1
+        Method: GET
+        Out Put:
+        {
+            "status": "SUCESS",
+            "message": "Loaded Apartment",
+            "data": {
+                "id": 1,
+                "name": " Blue Jeans Villa",
+                "description": "This is the beginner level apartment with basic amenities include",
+                "price": "10 Million",
+                "location": " Big City, Coral Island",
+                "created_at": "2022-01-11T05:15:52.107Z",
+                "updated_at": "2022-01-11T05:15:52.107Z"
+            }
+        }
+       *Add New Apartment Detail
+        End point: http://localhost:3000/api/v1/apartment
+        Method: POST
+        Headers : Content-Type: application/json
+        In Put: Body
+        {
+        "name":"test 111",
+        "description":"jhkjhkjhkjh",
+        "price":"2222",
+        "location":"jhkjhkjhkjh"
+        }
+        *Delete Apartment Detail
+         End point: http://localhost:3000/api/v1/apartment/1
+         Method: DELETE
+         *.Update Apartment Detail
+            End point: http://localhost:3000/api/v1/apartment/2
+            Method: PUT
+            Headers : Content-Type: application/json
+            In Put: Body
+            {
+            "name":"kalinga",
+            "description":"asd",
+            "price":"222ww",
+            "location":"asdaaa"
+            }
+
+
 
 ------------------------------------------------------------------------------------------------
 * Services (job queues, cache servers, search engines, etc.)
