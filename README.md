@@ -12,10 +12,10 @@ Things you may want to cover:</br>
 
 
 # System dependencies<br>
-    all Requerd gems and bundle are included ex:gem "mysql2".<br>
+    all Requerd gems and bundle are included ex:gem "mysql2"
 --------------------------------------------------------------------------------------------
 # Database Configuration<br>
-    You can change the DB File in \mytestapi\config\database.yml.<br>
+    You can change the DB File in \mytestapi\config\database.yml
 
     change the adapter in to mysql2 and adding user name and password and db name in mysql sever.<br>
 
@@ -30,13 +30,13 @@ Things you may want to cover:</br>
 ----------------------------------------------------------------------------------------------
 
 # Database Migrations
-    You can Run migration Command below its create DB and create table and Data Seeding<br>
+    You can Run migration Command below its create DB and create table and Data Seeding
 
     rake db:create
     rails db:migrate
     rails db:seed
 
-
+------------------------------------------------------------------------------------------------
 
 * How to run the test suite
 
