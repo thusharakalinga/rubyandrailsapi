@@ -1,5 +1,5 @@
 # README
-
+-------------------------------------------------------------------------------------------
 This README would normally document whatever steps are necessary to get the
 application up and running.<br>
 This Api Is working with Mysql.You can run the mysql in xampp server or ect.</br>
@@ -13,7 +13,7 @@ Things you may want to cover:</br>
 
 # System dependencies<br>
     all Requerd gems and bundle are included ex:gem "mysql2"<br>
-
+--------------------------------------------------------------------------------------------
 # Database Configuration<br>
     You can change the DB File in \mytestapi\config\database.yml<br>
 
@@ -27,14 +27,14 @@ Things you may want to cover:</br>
     database: blog1<br>
 
 
-///-----------------------------------
+----------------------------------------------------------------------------------------------
 
-# Database creation
+# Database Migrations<br>
+    You can Run migration Command below its create DB and create table and Data Seeding<br>
 
-# rake db:create
-# rails db:migrate
-
-# rails db:seed
+    rake db:create<br>
+    rails db:migrate<br>
+    rails db:seed<br>
 
 
 
