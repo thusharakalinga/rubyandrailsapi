@@ -50,6 +50,9 @@ Things you may want to cover:</br>
 ------------------------------------------------------------------------------------------------    
 # API End point
     more detail include in API Dcoumantaion please check with API_Documantaion.doc in root folder
+    * appartment List
+        End point: http://localhost:3000/api/v1/apartment
+        Method: GET
 
 ------------------------------------------------------------------------------------------------
 * Services (job queues, cache servers, search engines, etc.)
