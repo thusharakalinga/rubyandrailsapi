@@ -49,11 +49,12 @@ Things you may want to cover:</br>
     https://www.postman.com/downloads/
 ------------------------------------------------------------------------------------------------    
 # API End point
-    more detail include in API Dcoumantaion plese see API_Documantaion.doc
+    more detail include in API Dcoumantaion please check with API_Documantaion.doc in root folder
 
 ------------------------------------------------------------------------------------------------
 * Services (job queues, cache servers, search engines, etc.)
-
+------------------------------------------------------------------------------------------------
 * Deployment instructions
-
-* ...
+------------------------------------------------------------------------------------------------
+* Testing
+------------------------------------------------------------------------------------------------
