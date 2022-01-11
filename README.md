@@ -19,12 +19,12 @@ Things you may want to cover:</br>
 
     change the adapter in to mysql2 and adding user name and password and db name in mysql sever.<br>
 
-    adapter: mysql2.<br>
-    username: root.<br>
-    password:.<br>
+    adapter: mysql2.
+    username: root.
+    password:.
 
-    set the database in development:.<br>
-    database: blog1.<br>
+    set the database in development:
+    database: blog1
 
 
 ----------------------------------------------------------------------------------------------
