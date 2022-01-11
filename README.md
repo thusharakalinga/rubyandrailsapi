@@ -112,9 +112,64 @@ Things you may want to cover:</br>
             "location":"asdaaa"
             }
       #Booking Reservation
-      
-
-
+     * Booking List
+        End point: http://localhost:3000/api/v1/booking
+        Method: GET
+        Out Put:
+        {
+            "status": "SUCESS",
+            "message": "Loaded Bookings",
+            "data": [
+                {
+                    "id": 1,
+                    "booking_date": "3",
+                    "booking_time": "jhkjhkjhkjh",
+                    "appartment_id": "3",
+                    "client_name": "jhkjhkjhkjh",
+                    "client_email": "sdsadasd44",
+                    "isbook": "1",
+                    "created_at": "2022-01-11T05:19:08.423Z",
+                    "updated_at": "2022-01-11T05:19:08.423Z"
+                }
+            ]
+        }
+        *Booking Details
+        End point: http://localhost:3000/api/v1/booking/1
+        Method: GET
+        Out Put:
+        {
+            "status": "SUCESS",
+            "message": "Loaded Bookings",
+            "data": [
+                {
+                    "id": 1,
+                    "booking_date": "3",
+                    "booking_time": "jhkjhkjhkjh",
+                    "appartment_id": "3",
+                    "client_name": "jhkjhkjhkjh",
+                    "client_email": "sdsadasd44",
+                    "isbook": "1",
+                    "created_at": "2022-01-11T05:19:08.423Z",
+                    "updated_at": "2022-01-11T05:19:08.423Z"
+                }
+            ]
+        }
+        
+      * Add New Booking Detail
+        End point: http://localhost:3000/api/v1/booking/
+        Method: POST
+        Headers : Content-Type: application/json
+        In Put: Body
+        {
+        "booking_date":"3",
+        "booking_time":"jhkjhkjhkjh",
+        "appartment_id":"3",
+        "client_name":"jhkjhkjhkjh",
+        "client_email":"sdsadasd44",
+        "isbook":"1"
+        }
+        
+ 
 ------------------------------------------------------------------------------------------------
 * Services (job queues, cache servers, search engines, etc.)
 ------------------------------------------------------------------------------------------------
