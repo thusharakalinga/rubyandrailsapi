@@ -168,7 +168,31 @@ Things you may want to cover:</br>
         "client_email":"sdsadasd44",
         "isbook":"1"
         }
-        
+        Out Put
+        {
+            "status": "SUCESS",
+            "message": "Apartment Booking saved",
+            "data": {
+                "id": 2,
+                "booking_date": "5",
+                "booking_time": "jhkjhkjhkjh",
+                "appartment_id": "3",
+                "client_name": "jhkjhkjhkjh",
+                "client_email": "sdsadasd44",
+                "isbook": "1",
+                "created_at": "2022-01-11T19:02:16.842Z",
+                "updated_at": "2022-01-11T19:02:16.842Z"
+            }
+        }
+
+      * Error and Validation
+        when trying to book an apartment that has been already booked system given error.
+        Error:
+        {
+            "status": "ERROR",
+            "message": "Unable To booking !selected date alredy Booked!!!... Time Try Anther Day"
+        }
+
  
 ------------------------------------------------------------------------------------------------
 * Services (job queues, cache servers, search engines, etc.)
