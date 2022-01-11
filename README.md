@@ -40,9 +40,16 @@ Things you may want to cover:</br>
 
 # How to run the API
     Run this command in Your CLI
-    rails s or rails server
+    rails s 
+    or rails server
 ------------------------------------------------------------------------------------------------    
-#
+# Run API with POSTMAN
+    Postman is an API platform for building and using APIs. you can download the postman and setup 
+    https://www.postman.com/downloads/
+    
+    
+
+
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
