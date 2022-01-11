@@ -1,4 +1,4 @@
-# README RUBY AND RAILS REST API SAMPLE
+#                            RUBY AND RAILS REST API SAMPLE
 -------------------------------------------------------------------------------------------
 
 This README would normally document whatever steps are necessary to get the
